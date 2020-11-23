@@ -1,11 +1,7 @@
-
-
-/* Colour and fonts */
-
 body{
 	background-color: #326771;
 	color: rgb(30,30,30);
-	font-family: 'Commissioner', sans-serif;;
+	font-family: 'Commissioner', sans-serif;
 }
 
 h1 {
@@ -36,7 +32,6 @@ a:hover{
 .container{
 	width: 700px;
 	margin: 40px auto;
-	background-color: F0EFF4;
 }
 
 .card-white{
@@ -44,42 +39,42 @@ a:hover{
 	text-align: center;
 	padding: 40px;
 	margin: 20px 0px;
-	border-radius: 4px
+	border-radius: 6px;
 	box-shadow: 0px 10px 30px rgb(0,0,0,0.1);
 }
 
 .img-circle{
-	border-radius: 50%
+	border-radius: 50%;
 }
 
 .btn-blue{
-	background-color: #084177;
+	background-color: #776d8a;
 	color: white;
 	padding: 15px 20px;
 }
 
 .btn-blue:hover {
-	background-color: black;
+	background-color: #3c2946;
 	color: white;
 }
 
 .list-inline{
 	list-style: none;
-	padding-left: 0px
+	padding-left: 0px;
 }
 
 .list-inline li{
 	display: inline;
-	padding: 10px
+	padding: 10px;
 }
 
 .list-inline i{
-	font-size: 50px
-	color: grey;
+	font-size: 40px;
+	color: #776d8a;
 }
 
 .list-inline i:hover {
-	color: black;
+	color: #3c2946;
 }
 
 
@@ -101,24 +96,3 @@ a:hover{
 @media (max-width: 540px) {
   .container {width: 300px}
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
